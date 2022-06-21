@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns="http://www.springframework.org/schema/beans"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!-- bean definitions here -->
+    <bean id="myFortuneService"
+          class="com.akxay.springcore.HappyFortuneService">
+    </bean>
+
+    <bean id="myCoach"
+          class="com.akxay.springcore.TrackCoach"
+          init-method="doMyStartupStuff"
+          scope="prototype">
+        <!-- constructor injection-->
+        <constructor-arg ref="myFortuneService"/>
+    </bean>
+
+    <!-- Bean custom processor to handle calling destroy methods on prototype scoped beans -->
+    <bean id="customProcessor" class="com.akxay.springcore.MyCustomBeanProcessor">
+
+    </bean>
+
+</beans>
