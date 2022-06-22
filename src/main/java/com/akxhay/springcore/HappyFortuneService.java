@@ -1,7 +1,10 @@
-package com.akxay.springcore;
+package com.akxhay.springcore;
+
+import org.springframework.stereotype.Component;
 
 import java.util.Random;
 
+@Component
 public class HappyFortuneService implements FortuneService{
     @Override
     public String getFortune() {

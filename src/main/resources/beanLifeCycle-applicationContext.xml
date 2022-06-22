@@ -5,11 +5,11 @@
 
     <!-- bean definitions here -->
     <bean id="myFortuneService"
-          class="com.akxay.springcore.HappyFortuneService">
+          class="com.akxhay.springcore.HappyFortuneService">
     </bean>
 
     <bean id="myCoach"
-          class="com.akxay.springcore.TrackCoach"
+          class="com.akxhay.springcore.TrackCoach"
           init-method="doMyStartupStuff"
           scope="prototype">
         <!-- constructor injection-->
@@ -17,7 +17,7 @@
     </bean>
 
     <!-- Bean custom processor to handle calling destroy methods on prototype scoped beans -->
-    <bean id="customProcessor" class="com.akxay.springcore.MyCustomBeanProcessor">
+    <bean id="customProcessor" class="com.akxhay.springcore.MyCustomBeanProcessor">
 
     </bean>
 

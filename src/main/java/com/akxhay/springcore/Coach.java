@@ -1,4 +1,4 @@
-package com.akxay.springcore;
+package com.akxhay.springcore;
 
 public interface Coach {
     public String getDailyWorkout();

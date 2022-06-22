@@ -1,4 +1,4 @@
-package com.akxay.springcore;
+package com.akxhay.springcore;
 
 public class MyApp {
     public static void main(String[] args) {

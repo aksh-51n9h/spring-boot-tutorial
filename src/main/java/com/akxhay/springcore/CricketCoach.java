@@ -1,7 +1,11 @@
-package com.akxay.springcore;
+package com.akxhay.springcore;
+
+import org.springframework.beans.factory.annotation.Value;
+import org.springframework.stereotype.Component;
 
 public class CricketCoach implements Coach {
     private FortuneService fortuneService;
+
     private String emailAddress;
     private String team;
 

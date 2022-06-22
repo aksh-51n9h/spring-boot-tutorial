@@ -5,11 +5,11 @@
 
     <!-- bean definitions here -->
     <bean id="myFortuneService"
-          class="com.akxay.springcore.HappyFortuneService">
+          class="com.akxhay.springcore.HappyFortuneService">
     </bean>
 
     <bean id="myCoach"
-          class="com.akxay.springcore.TrackCoach"
+          class="com.akxhay.springcore.TrackCoach"
           scope="prototype">
         <!-- constructor injection-->
         <constructor-arg ref="myFortuneService"/>

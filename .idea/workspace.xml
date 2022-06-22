@@ -4,31 +4,39 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="547c945e-f32f-4de4-ade9-7d27a716b8a9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/akxay/springcore/BaseballCoach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/akxay/springcore/BeanLifeCycleDemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/akxay/springcore/BeanScopeDemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/akxay/springcore/Coach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/akxay/springcore/CricketCoach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/akxay/springcore/FortuneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/akxay/springcore/HappyFortuneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/akxay/springcore/HelloSpringApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/akxay/springcore/MyApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/akxay/springcore/MyCustomBeanProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/akxay/springcore/SetterDemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/akxay/springcore/TrackCoach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/akxay/springcore/annotations/AnnotationDemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/akxay/springcore/annotations/TennisCoach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/annotations-applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/beanLifeCycle-applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/beanScope-applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sport.properties" afterDir="false" />
+    <list default="true" id="547c945e-f32f-4de4-ade9-7d27a716b8a9" name="Changes" comment="complete inversion of control, dependencies injection, bean lifecycle, java annotations - inversion of control">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/akxhay/springcore/annotations/propertyfile/PropertyFileDemoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/akxhay/springcore/annotations/propertyfile/SwimCoach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/akxhay/springcore/annotations/qualifiers/DatabaseFortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/akxhay/springcore/annotations/qualifiers/QualifierDemoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/akxhay/springcore/annotations/qualifiers/RESTFortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/akxhay/springcore/annotations/qualifiers/RandomFortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/akxhay/springcore/annotations/scope/AnnotationBeanScopeDemoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/akxhay/springcore/javaconfiguration/JavaConfigDemoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/akxhay/springcore/javaconfiguration/SadFortuneService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/akxhay/springcore/javaconfiguration/SportConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/akxhay/springcore/javaconfiguration/SwimJavaConfigDemoApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/akxay/springcore/BaseballCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/akxhay/springcore/BaseballCoach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/akxay/springcore/BeanLifeCycleDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/akxhay/springcore/BeanLifeCycleDemoApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/akxay/springcore/BeanScopeDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/akxhay/springcore/BeanScopeDemoApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/akxay/springcore/Coach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/akxhay/springcore/Coach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/akxay/springcore/CricketCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/akxhay/springcore/CricketCoach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/akxay/springcore/FortuneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/akxhay/springcore/FortuneService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/akxay/springcore/HappyFortuneService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/akxhay/springcore/HappyFortuneService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/akxay/springcore/HelloSpringApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/akxhay/springcore/HelloSpringApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/akxay/springcore/MyApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/akxhay/springcore/MyApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/akxay/springcore/MyCustomBeanProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/akxhay/springcore/MyCustomBeanProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/akxay/springcore/SetterDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/akxhay/springcore/SetterDemoApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/akxay/springcore/TrackCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/akxhay/springcore/TrackCoach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/akxay/springcore/annotations/AnnotationDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/akxhay/springcore/annotations/AnnotationDemoApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/akxay/springcore/annotations/TennisCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/akxhay/springcore/annotations/TennisCoach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/annotations-applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/annotations-applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/beanLifeCycle-applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beanLifeCycle-applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/beanScope-applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beanScope-applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,8 +67,13 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "dart.analysis.tool.window.visible": "false",
     "last_opened_file_path": "G:/Akshay/tutorials/spring-ioc/src/main/resources",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
     "show.migrate.to.gradle.popup": "false"
   }
 }]]></component>
@@ -72,17 +85,18 @@
       <recent name="G:\Akshay\tutorials\spring-ioc\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.akxhay.springcore.javaconfiguration" />
       <recent name="com.akxay.springcore.annotations" />
       <recent name="com.akxay.springioc" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AnnotationDemoApp">
-    <configuration name="AnnotationDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.akxay.springcore.annotations.AnnotationDemoApp" />
+  <component name="RunManager" selected="Application.SwimJavaConfigDemoApp">
+    <configuration name="AnnotationBeanScopeDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akxhay.springcore.annotations.scope.AnnotationBeanScopeDemoApp" />
       <module name="spring-ioc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.akxay.springcore.annotations.*" />
+          <option name="PATTERN" value="com.akxhay.springcore.annotations.scope.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,12 +104,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BeanLifeCycleDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.akxay.springcore.BeanLifeCycleDemoApp" />
+    <configuration name="JavaConfigDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akxhay.springcore.javaconfiguration.JavaConfigDemoApp" />
       <module name="spring-ioc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.akxay.springcore.*" />
+          <option name="PATTERN" value="com.akxhay.springcore.javaconfiguration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,12 +117,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BeanScopeDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.akxay.springcore.BeanScopeDemoApp" />
+    <configuration name="SwimJavaConfigDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akxhay.springcore.javaconfiguration.SwimJavaConfigDemoApp" />
       <module name="spring-ioc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.akxay.springcore.*" />
+          <option name="PATTERN" value="com.akxhay.springcore.javaconfiguration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,12 +130,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HelloSpringApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.akxay.springcore.HelloSpringApp" />
+    <configuration name="com.akxhay.springcore.annotations.AnnotationDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akxhay.springcore.annotations.AnnotationDemoApp" />
       <module name="spring-ioc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.akxay.springcore.*" />
+          <option name="PATTERN" value="com.akxhay.springcore.annotations.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,12 +143,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SetterDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.akxay.springcore.SetterDemoApp" />
+    <configuration name="com.akxhay.springcore.annotations.propertyfile.PropertyFileDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.akxhay.springcore.annotations.propertyfile.PropertyFileDemoApp" />
       <module name="spring-ioc" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.akxay.springcore.*" />
+          <option name="PATTERN" value="com.akxhay.springcore.annotations.propertyfile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -144,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.AnnotationDemoApp" />
-        <item itemvalue="Application.com.akxay.springcore.BeanLifeCycleDemoApp" />
-        <item itemvalue="Application.com.akxay.springcore.BeanScopeDemoApp" />
-        <item itemvalue="Application.com.akxay.springcore.SetterDemoApp" />
-        <item itemvalue="Application.com.akxay.springcore.HelloSpringApp" />
+        <item itemvalue="Application.SwimJavaConfigDemoApp" />
+        <item itemvalue="Application.JavaConfigDemoApp" />
+        <item itemvalue="Application.com.akxhay.springcore.annotations.AnnotationDemoApp" />
+        <item itemvalue="Application.AnnotationBeanScopeDemoApp" />
+        <item itemvalue="Application.com.akxhay.springcore.annotations.propertyfile.PropertyFileDemoApp" />
       </list>
     </recent_temporary>
   </component>
@@ -161,6 +175,14 @@
       <option name="presentableId" value="Default" />
       <updated>1655727515188</updated>
     </task>
+    <task id="LOCAL-00001" summary="complete inversion of control, dependencies injection, bean lifecycle, java annotations - inversion of control">
+      <created>1655795441501</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655795441501</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,5 +195,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="complete inversion of control, dependencies injection, bean lifecycle, java annotations - inversion of control" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete inversion of control, dependencies injection, bean lifecycle, java annotations - inversion of control" />
   </component>
 </project>

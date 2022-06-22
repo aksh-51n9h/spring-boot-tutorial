@@ -9,17 +9,17 @@
 
     <!-- bean definitions here -->
     <bean id="myFortuneService"
-          class="com.akxay.springcore.HappyFortuneService">
+          class="com.akxhay.springcore.HappyFortuneService">
     </bean>
 
     <bean id="myBaseballCoach"
-          class="com.akxay.springcore.BaseballCoach">
+          class="com.akxhay.springcore.BaseballCoach">
         <!-- constructor injection-->
         <constructor-arg ref="myFortuneService"/>
     </bean>
 
     <bean id="myCricketCoach"
-          class="com.akxay.springcore.CricketCoach">
+          class="com.akxhay.springcore.CricketCoach">
         <!-- setter injection by reference-->
         <property name="fortuneService" ref="myFortuneService"/>
 
